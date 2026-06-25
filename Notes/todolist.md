@@ -9,17 +9,17 @@ Likes/Comments/Bookmarks, etc.).
 
 ## Phase 0 — Repo & infra scaffolding
 
-- [ ] Initialize repo, `.gitignore`, `README.md`
-- [ ] Write `.env.example` (`DATABASE_URL`, `REDIS_URL`, `MONGO_URL`,
+- [0] Initialize repo, `.gitignore`, `README.md`
+- [0] Write `.env.example` (`DATABASE_URL`, `REDIS_URL`, `MONGO_URL`,
       `ELASTICSEARCH_URL`, `JWT_SECRET`, `POSTGRES_PASSWORD`)
-- [ ] Write `Dockerfile`
-- [ ] Write `requirements.txt` (fastapi, uvicorn, sqlalchemy[asyncio],
+- [0] Write `Dockerfile`
+- [0] Write `requirements.txt` (fastapi, uvicorn, sqlalchemy[asyncio],
       asyncpg, alembic, pydantic-settings, redis, motor, elasticsearch,
       python-jose, passlib)
-- [ ] Write `docker-compose.yml` (postgres, redis, mongo, elasticsearch, api)
-- [ ] Write `docker-compose.override.yml` (hot reload, mounted volume)
-- [ ] Write `Makefile` (`make up`, `make migrate`, `make logs`, `make test`)
-- [ ] Confirm `docker compose up` boots all five containers cleanly
+- [0] Write `docker-compose.yml` (postgres, redis, mongo, elasticsearch, api)
+- [0] Write `docker-compose.override.yml` (hot reload, mounted volume)
+- [0] Write `Makefile` (`make up`, `make migrate`, `make logs`, `make test`)
+- [0] Confirm `docker compose up` boots all five containers cleanly
 
 ## Phase 1 — Core app shell
 

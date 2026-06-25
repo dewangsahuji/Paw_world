@@ -1,12 +1,12 @@
 
-fastapi>=0.111.0
-uvicorn[standard]>=0.23.0
-SQLAlchemy[asyncio]>=2.0.0
-asyncpg>=0.27.0
-alembic>=1.12.0
-pydantic>=2.8.0
-python-dotenv>=1.0.0
-motor>=4.0.0
-redis>=5.0.0
-elastic-transport>=8.11.0
-python-jose[cryptography]>=3.3.0
+fastapi
+uvicorn[standard]
+SQLAlchemy[asyncio]
+asyncpg
+alembic
+pydantic
+python-dotenv
+motor
+redis
+elastic-transport
+python-jose[cryptography]
